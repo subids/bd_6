@@ -4,7 +4,7 @@ from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 Base = declarative_base()
 
 
-DSN = "postgresql://postgres:wsxzaq!1@localhost:5432/HomeWork6"
+DSN = "postgresql://postgres:postgres@localhost:5432/HomeWork6"
 engine = sqlalchemy.create_engine(DSN)
 
 class Publisher(Base):
